@@ -113,7 +113,9 @@ O programa foi executado no IntelliJ IDEA com a impressora conectada por USB. Os
 ---
 
 ## 👥 Autores
-*(em ordem alfabética)*
 
-- Nome Completo
-- Nome Completo
+
+- Anna Luiza Zamith
+- Beatriz Furtado
+- Maria Clara Fernandes
+- Valentina Bento Dias
