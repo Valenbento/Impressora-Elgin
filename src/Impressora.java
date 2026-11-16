@@ -1,3 +1,4 @@
+
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
@@ -73,8 +74,7 @@ public class Impressora {
     }
 
     void impressaoCodigoBarras() {
-        System.out.println("Digite os numeros do codigo de barras:");
-        String dados = Menu.lerTexto();
+        String dados = "A12345678912";
         int retorno = ImpressoraDLL.INSTANCE.ImpressaoCodigoBarras(8, "{A" + dados, 100, 2, 3);
         mostrarResultado(retorno, "Codigo de barras");
         ImpressoraDLL.INSTANCE.Corte(5);
